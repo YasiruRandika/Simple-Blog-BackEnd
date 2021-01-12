@@ -54,7 +54,7 @@ exports.userLogin = (req, res, next) => {
         });
       }
 
-      const token = jwt.sign({email : fetchedUser.email, userId : fetchedUser._id}, process.env.JWT_KEY, {expiresIn:"1h"});
+      const token = jwt.sign({email : fetchedUser.email, userId : fetchedUser._id}, "blogtestprojectbyyasirurandikausingangular", {expiresIn:"1h"});
 
       res.status(200).json({
         token : token,

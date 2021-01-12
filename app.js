@@ -7,7 +7,7 @@ const path = require('path');
 
 const app = express();
 
-mongoose.connect("mongodb+srv://max:" + process.env.MONGO_ATLAS_PW +"@cluster0.ooist.mongodb.net/test", {useNewUrlParser: true, useUnifiedTopology: true}, (err) => {
+mongoose.connect("mongodb+srv://max:xBuMakWaLkfF65BH@cluster0.ooist.mongodb.net/test", {useNewUrlParser: true, useUnifiedTopology: true}, (err) => {
   if (err)
       console.error(err);
   else
