@@ -6,11 +6,11 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "node index.js",
-    "build": "node index.js",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "start": "node server.js",
+    "build": "node server.js",
+    "test": "node test",
+    "lint": "node lint",
+    "e2e": "node e2e"
   },
   "private": true,
   "dependencies": {
